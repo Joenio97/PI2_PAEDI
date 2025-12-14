@@ -19,13 +19,13 @@ class Professor(Pessoa):
         return self.__senha == senha
 
     def acessarAreaProf(self):
-        print("Acesso à área do professor")
+        return "Acesso à área do professor concedido"
 
     def acessarChat(self):
-        print("Acessando chat")
+        return "Acesso ao chat concedido"
 
     def registrarPresenca(self):
-        print("Presença registrada")
+        return "Presença registrada"
 
 class Responsavel(Pessoa):
     def __init__(self, nome, sobrenome, telefone, email, senha):
@@ -54,7 +54,7 @@ class Turma:
         self.professores.append(professor)
 
     def adicionarEvento(self, evento):
-        print(f"Evento '{evento}' adicionado à turma {self.ano}")
+        return f"Evento '{evento}' adicionado à turma {self.ano}"
 
 class Notas:
     def __init__(self, aluno: Aluno, disciplina):  # classe Nota precisa de Aluno
@@ -93,10 +93,10 @@ class Escola:
         self.usuarios.append(pessoa)
 
     def permitirAcesso(self):
-        print("Acesso permitido")
+        return "Acesso permitido à escola"
 
     def adicionarEventos(self, evento):
-        print(f"Evento '{evento}' adicionado à escola")
+        return f"Evento '{evento}' adicionado à escola"
 
 
 escola = Escola("E.E.F antonio Mendonça", 101)
@@ -115,4 +115,33 @@ nota.registrarNotas(8.5)
 freq = Frequencia(aluno, "Matemática")
 freq.registrarFrequencia(90)
 
+print("SISTEMA ESCOLAR")
 
+print(escola.permitirAcesso()) # Acesso à escola
+
+# Professor
+print("Professor")
+print(prof.acessarAreaProf())
+print(prof.acessarChat())
+print(prof.registrarPresenca())
+
+# Turma
+print("Turma")
+print(turma.adicionarEvento("Prova de Matemática"))
+
+# Aluno
+print("Aluno")
+print(f"Aluno: {aluno.nome} {aluno.sobrenome}")
+print(f"Série: {aluno.serie}")
+print(f"Matrícula: {aluno.matricula}")
+
+# Notas
+print("Notas")
+print(f"Disciplina: {nota.disciplina}")
+print(f"Nota: {nota.nota}")
+
+# Frequência
+print("Frequência")
+print(f"Frequência em {freq.disciplina}: {freq.mostrarPercentual()}")
+
+print("FIM DO SISTEMA ESCOLAR PAEDI")
