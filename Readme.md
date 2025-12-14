@@ -1,8 +1,10 @@
 
 Possíveis usos da nossa solução
 
-        Muitas escolas, principalmente de pequeno e médio porte, enfrentam diversos problemas no 
-âmbito da instituição, como por exemplo, falta de comunicação eficiente entre escola, professores e 
+        
+		
+   Muitas escolas, principalmente de pequeno e médio porte, enfrentam diversos problemas no âmbito
+da instituição, como por exemplo, falta de comunicação eficiente entre escola, professores e 
 responsáveis pelos alunos. Além disso, dificuldade em acompanhar o desempenho do aluno, falta de 
 centralização das informações, esses problemas geram desorganização, retrabalho e insatisfação de 
 ambos que fazem parte.
