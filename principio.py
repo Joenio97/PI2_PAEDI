@@ -36,6 +36,9 @@ class Responsavel(Pessoa):
 
     def verificarSenha(self, senha):
         return self.__senha == senha
+        
+    def acessarAreaProf(self):
+        return "Acesso à área do professor concedido"
 
     def acessarChat(self):
           return True
@@ -124,6 +127,10 @@ print("Professor")
 print(prof.acessarAreaProf())
 print(prof.acessarChat())
 print(prof.registrarPresenca())
+
+# Responsavel
+print("Responsavel")
+print(respon.acessarAreaRespon())
 
 # Turma
 print("Turma")
