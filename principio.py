@@ -37,8 +37,8 @@ class Responsavel(Pessoa):
     def verificarSenha(self, senha):
         return self.__senha == senha
         
-    def acessarAreaProf(self):
-        return "Acesso à área do professor concedido"
+    def acessarAreaRespon(self):
+        return "Acesso à área do responsavel concedido"
 
     def acessarChat(self):
           return True
@@ -82,7 +82,7 @@ class Frequencia:
 
     def registrarFrequencia(self, percentual):
         self.assiduidade = percentual
-
+   
     def mostrarPercentual(self):
         return f"{self.assiduidade}%"
 
