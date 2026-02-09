@@ -1,53 +1,34 @@
 Com base nessa nova etapa, podemos pensar no seguinte:
 
-## **O que é projeto físico de banco de dados?**
+O que é projeto físico de banco de dados?
 
-   O projeto físico de banco de dados é a etapa crucial do desenvolvimento em que o modelo lógico
-é transformado em estruturas reais dentro de um sistema gerenciador de banco de dados (SGBD), 
-como nesse caso, o PostgreSQL. Nessa fase são definidos as tabelas, os campos, os tipos de dados,
-as chaves primárias, as chaves estrangeiras, os índices e as restrições.
-   Enquanto o modelo lógico descreve a organização conceitual dos dados, o projeto físico 
-determina como esses dados serão armazenados e acessados de forma concreta no banco de dados.
+O projeto físico de banco de dados é a etapa em que o modelo lógico deixa de ser apenas um planejamento e passa a ser implementado de forma concreta em um Sistema Gerenciador de Banco de Dados (SGBD), como o PostgreSQL.
+Nessa fase são criadas as tabelas, definidos os campos, os tipos de dados, as chaves primárias e estrangeiras, além das restrições necessárias para garantir o correto funcionamento do sistema.
 
-## **Por que o projeto físico é importante para quem está aprendendo a programar?**
-   
-O projeto físico é fundamental para estudantes de programação porque permite compreender como
-as regras de negócio de um sistema são implementadas tecnicamente em um banco de dados.
-Ele contribui para:
+Enquanto o modelo lógico descreve como os dados se relacionam, o projeto físico define como esses dados serão armazenados, organizados e acessados na prática.
 
--evitar redundância de informações;
+Por que o projeto físico é importante para quem está aprendendo a programar?
 
--garantir integridade e segurança dos dados;
+Para quem está iniciando na programação, o projeto físico é fundamental, pois ajuda a compreender como as regras de negócio de um sistema são transformadas em estruturas reais dentro do banco de dados.
 
-Sendo assim, a partir desse entendimento, conhecendo o modelo lógico, e posteriormente
-o banco de dados em si, é possível compreender melhor como o sistema poderá ser desenvolvido.
-Nesse caso a lógica pode ser melhor pensada para nós que estamos no início dessa caminhada, 
-compreendendo melhor por onde ir.
+Ele contribui diretamente para:
 
-<br>
+evitar a repetição desnecessária de informações;
 
-## **Possíveis usos da nossa solução**
+garantir a integridade dos dados, evitando registros inconsistentes;
 
-        
-		
-   Muitas escolas, principalmente de pequeno e médio porte, enfrentam diversos problemas no âmbito
-da instituição, como por exemplo, falta de comunicação eficiente entre escola, professores e 
-responsáveis pelos alunos. Além disso, dificuldade em acompanhar o desempenho do aluno, falta de 
-centralização das informações, esses problemas geram desorganização, retrabalho e insatisfação de 
-ambos que fazem parte.
+facilitar a manutenção e a evolução do sistema;
 
-   O projeto proposto deverá atuar como um sistema de gestão escolar, trazendo benefícios para a 
-instituição, como: centralização de dados, redução de erros administrativos, melhora a  organização 
-interna, cria base para o crescimento do sistema.
+tornar o desenvolvimento da aplicação mais organizado e seguro.
 
-   Para os professores, o objetivo é um registro organizado de informações dos alunos, menor 
-dependência de papel ou mensagens informais, histórico dos alunos acessível.
+Ao compreender o projeto físico, o estudante consegue visualizar melhor como o sistema funciona além da interface, facilitando o aprendizado e o desenvolvimento da lógica de programação.
 
-   Os pais/responsáveis representam um papel fundamental nesse sistema, pois a ideia principal 
-foi baseada no contexto no qual, esses atores teriam essa preocupação em acompanhar melhor a rotina
-e todo um meio que acompanha a vida escolar do filho, mesmo em uma rotina cada vez mais conflitante 
-com a disponibilidade de estar acompanhando pessoalmente, pois muitos enfrentam alguma barreiras de
-emprego, geográficas e em alguns contextos, econômico. Tendo em vista o fato de que cada vez mais 
-cresce a quantidade de pessoas com acesso a um smartphone, estar conectado, tornou-se uma realidade 
-bastante acessível, assim podendo ser acessado em qualquer dispositivo nesse contexto, bem como pelo 
-computador. 
+Aplicação do projeto no contexto do PAEDI
+
+No contexto do projeto PAEDI (Painel de Acompanhamento Escolar Digital Integrado), o banco de dados foi planejado para atender a necessidades reais enfrentadas por instituições de ensino, principalmente relacionadas à comunicação e ao acompanhamento da vida escolar dos alunos.
+
+A proposta do sistema é centralizar informações importantes, como notas, frequência, mensagens e eventos, reduzindo a desorganização e o retrabalho administrativo.
+
+Para os professores, o sistema possibilita um registro mais organizado e acessível do desempenho dos alunos.
+
+Para os pais ou responsáveis, permite acompanhar a rotina escolar de forma prática e remota, utilizando dispositivos como celular ou computador, o que é essencial diante das limitações de tempo e deslocamento enfrentadas por muitas famílias.
