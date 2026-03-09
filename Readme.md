@@ -1,3 +1,17 @@
+<img width="400" height="300" alt="PaginaLoginGeral" src="https://github.com/user-attachments/assets/6a0bbf9d-499d-474f-bf85-8872c112c708" />
+<img width="400" height="300" alt="TelaEtapa1cad" src="https://github.com/user-attachments/assets/26337a0d-63b3-48c7-b33c-e5e87347a696" />
+<img width="400" height="300" alt="TelaEtap2cad" src="https://github.com/user-attachments/assets/9c98811c-c3d8-418f-96a0-f05c0d161157" />
+<img width="400" height="300" alt="TelaEtapa3cad" src="https://github.com/user-attachments/assets/20384aaf-eda5-452f-86a8-580d3fb789de" />
+<img width="400" height="300" alt="TelaEscola" src="https://github.com/user-attachments/assets/88352fc5-937f-43f5-a5c3-ec66aa38ce60" />
+<img width="400" height="300" alt="TelaProfessor" src="https://github.com/user-attachments/assets/9cfc83f3-5870-4fd4-8eab-547a5b625966" />
+<img width="400" height="300" alt="TelaPai" src="https://github.com/user-attachments/assets/18e45b27-5e8b-45cf-9523-94dc96b838ee" />
+<img width="400" height="300" alt="TelaPaiAluno" src="https://github.com/user-attachments/assets/3aaa54d6-4318-4362-a910-c2f68c4c3f71" />
+<img width="522" height="371" alt="SiteMap_MVP_PAEDI drawio" src="https://github.com/user-attachments/assets/ea70d4f5-f3e0-4649-9b7f-72385170573e" />
+
+## Sitemap e ordenção
+
+Essas são as principais telas que nortearam essa aplicação. O sistema conta com uma tela inicial principal que concentra o login dos três usuarios, sendo a escola a principal, pois só a partir dela, que será possivel os outros acessarem o sistema, sendo assim, no caso de primeiro acesso da escola, a mesma irá iniciar seu cadastro. Além disso, contara com 3 etapas centradas em conceitos de IHC, e posteriormente uma geração de um ID para acesso e permissão de usuários.
+
 ## Etapa de criação dos protótipos de wareframe de baixa fidelidade
 
 Guia de Prototipação: Do Rascunho ao Wireframe
@@ -20,7 +34,7 @@ Interfaces mal projetadas geram frustração e podem impedir que um pai acompanh
 
 
 
-
+### Etapa anterior relacionado ao banco de dados
 
 ## **O que é projeto físico de banco de dados?**
 
