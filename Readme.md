@@ -1,4 +1,26 @@
-Com base nessa nova etapa, podemos pensar no seguinte:
+## Etapa de criação dos protótipos de wareframe de baixa fidelidade
+
+Guia de Prototipação: Do Rascunho ao Wireframe
+Prototipar um wireframe é o ato de desenhar 
+a "espinha dorsal" de uma interface antes de aplicar cores ou imagens.
+
+1.Defina o Fluxo: Antes de desenhar, saiba para onde o usuário vai ao clicar em cada botão.
+
+2.Use Escala de Cinza: Evite cores para não distrair a atenção da funcionalidade.
+
+3.Priorize Conteúdo: Coloque as informações mais importantes no topo (F-Pattern).
+
+4.Teste Simples: Mostre o desenho para alguém e veja se a pessoa entende para que serve a tela sem explicação prévia.
+
+## O Impacto do Design Centrado no Usuário (DCU) na Sociedade
+
+O Design Centrado no Usuário não é apenas sobre "telas bonitas", mas sobre democratização tecnológica. Quando desenvolvemos sistemas como o PAEDI focando em quem vai usar (pais que podem ter pouco tempo, professores com alta carga de trabalho), estamos reduzindo o estresse e a exclusão digital.
+
+Interfaces mal projetadas geram frustração e podem impedir que um pai acompanhe a educação de um filho ou que um professor gerencie sua aula com eficiência. O papel da Interação Humano-Computador é garantir que a tecnologia seja uma ferramenta de união e produtividade, e não uma barreira. Sistemas intuitivos promovem autonomia e melhoram a qualidade de vida ao tornar tarefas complexas em ações simples e acessíveis.
+
+
+
+
 
 ## **O que é projeto físico de banco de dados?**
 
